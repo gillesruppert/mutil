@@ -1,0 +1,37 @@
+{
+  "name": "mutil",
+  "description": "utility functions and mixins for node.js",
+  "version": "0.1",
+  "author": {
+    "name": "Gilles Ruppert",
+    "email": "gilles@madeofbytes.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gillesruppert/mutil"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/gillesruppert/mutil/raw/master/LICENSE"
+    }
+  ],
+  "dependencies": { },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*",
+    "sinon": "*"
+  },
+  "keywords": [
+    "utilities",
+    "stateful",
+    "mixin"
+  ],
+  "main": "./mutil.js",
+  "engines": {
+    "node": ">= 0.6.0 < 0.7.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}
