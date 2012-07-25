@@ -1,7 +1,7 @@
 {
   "name": "mutil",
   "description": "utility functions for node.js, including: interpolate, toArray, size, type, capitalise, isUrl, toString, slice",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "author": {
     "name": "Gilles Ruppert",
     "email": "gilles@madeofbytes.com"
@@ -32,6 +32,6 @@
     "node": ">= 0.6.0 < 0.7.0"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "./node_modules/.bin/mocha"
   }
 }
