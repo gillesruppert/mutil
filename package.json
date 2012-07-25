@@ -1,7 +1,7 @@
 {
   "name": "mutil",
   "description": "utility functions for node.js, including: interpolate, toArray, size, type, capitalise, isUrl, toString, slice",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "author": {
     "name": "Gilles Ruppert",
     "email": "gilles@madeofbytes.com"
@@ -16,7 +16,9 @@
       "url": "http://github.com/gillesruppert/mutil/raw/master/LICENSE"
     }
   ],
-  "dependencies": { },
+  "dependencies": {
+    "utile": "~0.1.3"
+  },
   "devDependencies": {
     "mocha": "*",
     "should": "*",
@@ -24,12 +26,13 @@
   },
   "keywords": [
     "utilities",
+    "utile",
     "interpolate",
     "size"
   ],
   "main": "./lib/mutil.js",
   "engines": {
-    "node": ">= 0.6.0 < 0.7.0"
+    "node": ">= 0.6.0 <=0.8"
   },
   "scripts": {
     "test": "./node_modules/.bin/mocha"

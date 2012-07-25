@@ -18,8 +18,8 @@ This module will change as my needs change and might incorporate other modules
 in the future.
 
 Release notes:
+0.3.0 - add utile as a dependency and get all the goodness of `utile` on `mutil`
 0.2.0 - remove mutil.state
       - fix wrong attribution in the License
       - add Makefile and instructions on how to run tests
-
 0.1.0 - initial release

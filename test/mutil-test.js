@@ -180,3 +180,32 @@ describe("#size", function() {
   })
 })
 
+describe("utile", function() {
+  it("should have all the methods that are on the util and utile modules", function() {
+    should.exist(util.async);
+    should.exist(util.capitalize);
+    should.exist(util.clone);
+    should.exist(util.cpr);
+    should.exist(util.createPath);
+    should.exist(util.debug);
+    should.exist(util.each);
+    should.exist(util.error);
+    should.exist(util.exec);
+    should.exist(util.file);
+    should.exist(util.filter);
+    should.exist(util.find);
+    should.exist(util.inherits);
+    should.exist(util.log);
+    should.exist(util.mixin);
+    should.exist(util.mkdirp);
+    should.exist(util.p);
+    should.exist(util.path);
+    should.exist(util.print);
+    should.exist(util.pump);
+    should.exist(util.puts);
+    should.exist(util.randomString);
+    should.exist(util.requireDir);
+    should.exist(util.requireDirLazy);
+  });
+});
+
